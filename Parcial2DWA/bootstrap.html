@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcial 2 DWA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .navbar {
+            background-color: #660066;
+        }
+        .perfil-img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        .footer {
+            background-color: #660066; 
+            color: white; 
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Encabezado (Navbar) -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#inicio">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#servicios">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portafolio">Portafolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Sección de Presentación -->
+<div class="container my-4">
+    <div class="row">
+        <!-- Imagen de perfil circular y saludo en fondo gris -->
+        <div class="col-md-4 text-center bg-light p-3 rounded">
+            <img src="./Img/Photo1.jpg" class="perfil-img mb-3" alt="Perfil">
+            <h3>¡Hola! Soy Meybeline Corvera</h3>
+            <p>Soy una estudiante de la Universidad de Oriente estudio desarrollo de software con un gran interés en la lectura y el anime. Me encanta aprender nuevas tecnologías y aplicarlas en mis proyectos.</p>
+            <a href="https://www.instagram.com/a3igail_c5/?next=%2F" class="btn btn-link">Contactate conmigo</a>
+        </div>
+        <!-- Texto adicional encima del contenedor amarillo -->
+        <div class="col-md-8">
+            <p class="text-muted mb-1">"El aprendizaje no es un acto de consumo, sino un proceso de creación constante."</p>
+            <br>
+            <p>El autor de esta frase es <strong>Albert Einstein</strong>, quien siempre destacó la importancia de la creatividad en el aprendizaje.</p>
+            <p>Si deseas leer más frases como esta, te invito a seguir el perfil de Albert Einstein en LinkedIn: </p>
+            <a href="https://www.linkedin.com/in/alberteinstein">Albert Einstein</a>
+            <br><br>
+
+            <!-- Cita inspiradora con fondo amarillo y tamaño ajustado -->
+            <div class="col-md-5">
+                <img src="./Img/Photo2.jpg" class="img-fluid" alt="Imagen de la cita">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Galería de Imágenes -->
+<div class="container mb-4">
+    <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+            <img src="./Img/Photo3.jpg" class="img-fluid rounded" alt="Imagen 1">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+            <img src="./Img/Photo4.jpeg" class="img-fluid rounded" alt="Imagen 2">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+            <img src="./Img/Photo5.jpg" class="img-fluid rounded" alt="Imagen 3">
+        </div>
+    </div>
+</div>
+
+<!-- Sección de Descripciones -->
+<div class="container mb-4">
+    <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Desarrollo Web</h5>
+                    <p class="card-text">La creación de sitios web es una mezcla perfecta de creatividad y lógica. A través del desarrollo web, puedo transformar ideas en interfaces funcionales que no solo sean visualmente atractivas, sino también intuitivas y accesibles para todos. Cada línea de código es una oportunidad para aprender algo nuevo y aportar soluciones que realmente marcan la diferencia.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Anime</h5>
+                    <p class="card-text">Me encanta ver anime y aprender de las historias y personajes. Es una de mis fuentes de inspiración. El anime me ha enseñado lecciones valiosas sobre perseverancia, amistad y la importancia de los pequeños momentos de la vida. Las tramas profundas y los desarrollos complejos de personajes en series como One Piece o Mob Psycho me motivan a aplicar ese mismo nivel de detalle y pasión en todo lo que hago, ya sea en mis estudios o en mis proyectos personales.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Lectura</h5>
+                    <p class="card-text">Soy apasionada de la lectura, desde novelas hasta libros técnicos, siempre busco ampliar mis conocimientos. Me fascina sumergirme en mundos ficticios y aprender de diversas perspectivas. La literatura es una herramienta poderosa para explorar emociones, comprender culturas y obtener nuevas ideas. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Pie de Página -->
+<footer class="text-center py-4 footer">
+    <p>&copy; 2024 Mi Blog Personal. Todos los derechos reservados.</p>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
